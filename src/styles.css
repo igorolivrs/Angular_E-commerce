@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--body);
+}
+
+:root {
+  --body: #f6f6f6;
+  --header_backgroud: #ffffff;
+  --footer_backgroud: #ffffff;
+  --footer_color: #000000;
+  --input_backgroud: #f6f6f6;
+  --input_color: #000000;
+  --header_icons: #000000;
+  --header_logo: #000000;
+}
+
+:root .dark-theme {
+  --body: #111111;
+  --header_backgroud: #282828;
+  --footer_backgroud: #282828;
+  --footer_color: #ffffff;
+  --input_backgroud: #3e3e3e;
+  --input_color: #ffffff;
+  --header_icons: #ffffff;
+  --header_logo: #ffffff;
+}
