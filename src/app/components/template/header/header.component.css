@@ -75,6 +75,15 @@ button {
   padding-left: 15px;
 }
 
+.menu_icons .badge {
+  position: relative;
+  top: -24px;
+  right: 12px;
+  background-color: #ff7352;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
 /* Queries  */
 
 @media (max-width: 1300px) {

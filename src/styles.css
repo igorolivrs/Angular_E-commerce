@@ -12,6 +12,10 @@ body {
 
 :root {
   --body: #f6f6f6;
+  --primary_color: #fff;
+  --card_title: #000;
+  --card_title_description: #adb0b7;
+  --card_btn_fav: #000;
   --header_backgroud: #ffffff;
   --footer_backgroud: #ffffff;
   --footer_color: #000000;
@@ -23,6 +27,10 @@ body {
 
 :root .dark-theme {
   --body: #111111;
+  --primary_color: #282828;
+  --card_title: #fff;
+  --card_title_description: #fff;
+  --card_btn_fav: #fff;
   --header_backgroud: #282828;
   --footer_backgroud: #282828;
   --footer_color: #ffffff;

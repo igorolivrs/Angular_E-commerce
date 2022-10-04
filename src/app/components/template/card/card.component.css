@@ -1,0 +1,94 @@
+.card{
+  background-color: var(--primary_color);
+  border: none;
+}
+
+.box{
+  width: 306px;
+  height: 306px;
+  margin-top: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.pre-venda {
+  position: absolute;
+  margin-top: 16px;
+  background-color: #d01dbe;
+  color: #fff;
+  width: auto;
+  border-radius: 4px;
+  border-top-left-radius: 8px;
+  z-index: 1;
+}
+
+.novidade {
+  position: absolute;
+  margin-top: 16px;
+  background-color: #3c70a9;
+  color: #fff;
+  width: auto;
+  border-radius: 4px;
+  border-top-left-radius: 8px;
+  z-index: 1;
+}
+
+.oferta {
+  position: absolute;
+  top: 284px;
+  right: 12px;
+  background-color: #ef4186;
+  color: #fff;
+  width: auto;
+  border-radius: 4px;
+  border-bottom-right-radius: 8px;
+  z-index: 1;
+}
+
+.box img {
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.box img:hover {
+  transform: scale(1.05);
+}
+
+.title{
+  margin-top: 16px;
+  color: var(--card_title);
+}
+
+.title h2:hover{
+  color: #ff7352;
+}
+
+.title p {
+  color: var(--card_title_description) ;
+}
+
+.stock {
+  display: flex;
+  flex-direction: row;
+  color: green;
+}
+
+.stock svg {
+  margin-right: 10px;
+}
+
+.price {
+  margin-top: 16px;
+  font-size: 1.5rem;
+  color: #ff7352;
+  font-weight: 800;
+}
+
+.btn-favoritos {
+  color: var(--card_btn_fav);
+}
+
+.btn-favoritos:hover{
+  color: #ff7352;
+}
