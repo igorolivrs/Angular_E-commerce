@@ -45,6 +45,7 @@
 
 .active,
 .dot:hover {
+  background-color:#ff7352;
   opacity: 1;
 }
 

@@ -10,6 +10,7 @@ import { CarouselModule } from './components/template/carousel/carousel.module';
 import { HeaderComponent } from './components/template/header/header.component'
 import { FooterComponent } from './components/template/footer/footer.component';
 import { CardComponent } from './components/template/card/card.component';
+import { MenuCategoriesComponent } from './components/template/menu-categories/menu-categories.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CardComponent } from './components/template/card/card.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CardComponent
+    CardComponent,
+    MenuCategoriesComponent
   ],
   imports: [
     BrowserModule,
