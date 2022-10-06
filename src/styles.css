@@ -20,6 +20,7 @@ body {
 
 :root {
   --body: #f6f6f6;
+  --paragraphs: #000;
   --primary_color: #fff;
   --header_backgroud: #ffffff;
   --header_logo: #000000;
@@ -32,12 +33,15 @@ body {
   --card_title: #000;
   --card_title_description: #adb0b7;
   --card_btn_fav: #000;
+  --menu_rating_bg: #fff;
+  --infos_box_bg: #ffffff;
   --footer_backgroud: #ffffff;
   --footer_color: #000000;
 }
 
 :root .dark-theme {
   --body: #111111;
+  --paragraphs: #fff;
   --primary_color: #282828;
   --header_backgroud: #282828;
   --header_logo: #ffffff;
@@ -50,6 +54,8 @@ body {
   --card_title: #fff;
   --card_title_description: #fff;
   --card_btn_fav: #fff;
+  --menu_rating_bg: #282828;
+  --infos_box_bg: #282828;
   --footer_backgroud: #282828;
   --footer_color: #ffffff;
 }

@@ -11,6 +11,8 @@ import { HeaderComponent } from './components/template/header/header.component'
 import { FooterComponent } from './components/template/footer/footer.component';
 import { CardComponent } from './components/template/card/card.component';
 import { MenuCategoriesComponent } from './components/template/menu-categories/menu-categories.component';
+import { HomeComponent } from './components/views/home/home.component';
+import { MenuRatingComponent } from './components/template/menu-rating/menu-rating.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { MenuCategoriesComponent } from './components/template/menu-categories/m
     HeaderComponent,
     FooterComponent,
     CardComponent,
-    MenuCategoriesComponent
+    MenuCategoriesComponent,
+    HomeComponent,
+    MenuRatingComponent
   ],
   imports: [
     BrowserModule,
