@@ -35,8 +35,10 @@ body {
   --card_btn_fav: #000;
   --menu_rating_bg: #fff;
   --infos_box_bg: #ffffff;
-  --footer_backgroud: #ffffff;
+  --footer_backgroud: #f6f6f6;
+  --main_footer_bg: #ffffff;
   --footer_color: #000000;
+  --footer_social-icon_color: #000;
 }
 
 :root .dark-theme {
@@ -56,6 +58,8 @@ body {
   --card_btn_fav: #fff;
   --menu_rating_bg: #282828;
   --infos_box_bg: #282828;
-  --footer_backgroud: #282828;
-  --footer_color: #ffffff;
+  --footer_backgroud: #111111;
+  --main_footer_bg: #282828;
+  --footer_color: #fff;
+  --footer_social-icon_color: #dddbdb;
 }
