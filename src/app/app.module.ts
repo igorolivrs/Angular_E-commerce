@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from './components/template/carousel/carousel.module';
+import { HttpClientModule } from '@angular/common/http';
 
 // Components
 import { HeaderComponent } from './components/template/header/header.component'
@@ -30,6 +31,7 @@ import { MenuRatingComponent } from './components/template/menu-rating/menu-rati
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

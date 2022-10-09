@@ -2,17 +2,111 @@
     "produtos": [
         {
             "id": 1,
-            "name": "",
-            "category": "",
-            "imgUrl": "",
-            "price": ""
+            "name": "Smartphone Apple iPhone 13 Pro 6.1 256GB Grafite",
+            "description": "Apple iOS | A15 Bionic | 256GB ROM | 6GB RAM | 3 Câmaras Traseiras | 1 Câmara Frontal | Bateria Li-Ion",
+            "category": "smartphone",
+            "manufacturer": "apple",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p036779_7_.jpg",
+            "price": 1279.00
         },
         {
             "id": 2,
-            "name": "",
-            "category": "",
-            "imgUrl": "",
-            "price": ""
+            "name": "Smartphone Apple iPhone 13 Pro 6.1 128GB Verde Alpino",
+            "description": "Apple iOS | A15 Bionic | 128GB ROM | 6GB RAM | 3 Câmaras Traseiras | 1 Câmara Frontal | Bateria Li-Ion",
+            "category": "smartphone",
+            "manufacturer": "apple",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p041454_6_.jpg",
+            "price": 1149.00
+        },
+        {
+            "id": 3,
+            "name": "Smartphone Apple iPhone 14 Plus 6.7 256GB Azul",
+            "description": "iPhone 14 Plus. Pense em grande com um ecrã maior de 6.7 polegadas e bateria para todo o dia. Tire fotografias espetaculares com muita ou pouca luz com o novo sistema de câmara dupla. A nova funcionalidade Deteção de acidente3 pede ajuda por si sempre que não o conseguir fazer.",
+            "category": "smartphone",
+            "manufacturer": "apple",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p036785_6_.jpg",
+            "price": 1319.00
+        },
+        {
+            "id": 4,
+            "name": "Smartphone Apple iPhone 14 Plus 6.7 256GB Meia-Noite",
+            "description": "iPhone 14 Plus. Pense em grande com um ecrã maior de 6.7 polegadas e bateria para todo o dia. Tire fotografias espetaculares com muita ou pouca luz com o novo sistema de câmara dupla. A nova funcionalidade Deteção de acidente3 pede ajuda por si sempre que não o conseguir fazer.",
+            "category": "smartphone",
+            "manufacturer": "apple",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p047699_1_.jpg",
+            "price": 1169.00
+        },
+        {
+            "id": 5,
+            "name": "Smartphone Apple iPhone 14 Plus 6.7 256GB (product)RED",
+            "description": "iPhone 14 Plus. Pense em grande com um ecrã maior de 6.7 polegadas e bateria para todo o dia. Tire fotografias espetaculares com muita ou pouca luz com o novo sistema de câmara dupla. A nova funcionalidade Deteção de acidente3 pede ajuda por si sempre que não o conseguir fazer.",
+            "category": "smartphone",
+            "manufacturer": "apple",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p047661_1_.jpg",
+            "price": 1319.00
+        },
+        {
+            "id": 6,
+            "name": "Smartphone Samsung Galaxy Z Flip 3 5G 6.7 8GB/256GB Dual SIM Creme",
+            "description": "Android 11 | Snapdragon 888 | 256GB ROM | 8GB RAM | 2 Câmaras Traseiras | 1 Câmara Frontal | Bateria 3300 mAh",
+            "category": "smartphone",
+            "manufacturer": "samsung",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/2/_/2_28_43.jpg",
+            "price": 899.90
+        },
+        {
+            "id": 7,
+            "name": "Smartphone Samsung Galaxy Z Flip 4 6.7 8GB/128GB Dual SIM Light Blue",
+            "description": "Android 12 | Snapdragon 8+ Gen 1 | 128GB ROM | 8GB RAM | 2 Câmaras Traseiras | 1 Câmara Frontal | Bateria 3700 mAh",
+            "category": "smartphone",
+            "manufacturer": "samsung",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/1/_/1_p046900.jpg",
+            "price": 1149.90
+        },
+        {
+            "id": 8,
+            "name": "Smartphone Samsung Galaxy S22 Ultra 5G 6.8 12GB/256GB Dual SIM Burgundy",
+            "description": "Android 12 | Exynos 2200 | 256GB ROM | 12GB RAM | 4 Câmaras Traseiras | 1 Câmara Frontal | Bateria 5000 mAh",
+            "category": "smartphone",
+            "manufacturer": "samsung",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p039780_1.jpg",
+            "price": 1249.90
+        },
+        {
+            "id": 9,
+            "name": "Smartphone Samsung Galaxy S22+ 5G 6.6 8GB/256GB Dual SIM Branco",
+            "description": "Android 12 | Exynos 2200 | 128GB ROM | 8GB RAM | 3 Câmaras Traseiras | 1 Câmara Frontal | Bateria 4500 mAh",
+            "category": "smartphone",
+            "manufacturer": "samsung",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p039770_a.jpg",
+            "price": 949.90
+        },
+        {
+            "id": 10,
+            "name": "Smartphone Xiaomi Redmi Note 11 Pro+ 5G 6.67 8GB/128GB DualSIM Graphite",
+            "description": "Android 11 | MediaTek Dimensity 920 | 128GB ROM | 8GB RAM | 3 Câmaras Traseiras | 1 Câmara Frontal",
+            "category": "smartphone",
+            "manufacturer": "xiaomi",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p039608_1.jpg",
+            "price": 439.90
+        },
+        {
+            "id": 11,
+            "name": "Smartphone Xiaomi Redmi 9A 6.53 2GB/32GB Dual SIM Verde",
+            "description": "Android 10 | Helio G25 | 32GB ROM | 2GB RAM | 1 Câmara Traseira | 1 Câmara Frontal | Bateria 5000 mAh",
+            "category": "smartphone",
+            "manufacturer": "xiaomi",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/r/e/redmi9a_bodegonfrontal_verde_copy.jpg",
+            "price": 119.90
+        },
+        {
+            "id": 12,
+            "name": "Smartphone Xiaomi Poco X4 Pro 5G 6.67 6GB/128GB Dual SIM Laser Black",
+            "description": "Android 11 | Snapdragon 695 5G | 128GB ROM | 6GB RAM | 3 Câmaras Traseiras | 1 Câmara Frontal | Bateria 5000 mAh",
+            "category": "smartphone",
+            "manufacturer": "xiaomi",
+            "imgUrl": "https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/t/h/thumb_605045_default_big_1.jpg",
+            "price": 299.90
         }
     ]
 }

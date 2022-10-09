@@ -1,26 +1,24 @@
 <div class="container">
   <div class="row">
-    <ng-container>
-      <!-- *ngFor="let item of productList" -->
+    <ng-container *ngFor="let item of productList">
       <div class="card col-md-3">
         <button class="btn pre-venda">Pré-Venda</button>
         <div class="box">
           <img
             class="card-img-top"
-            src="https://static.pcdiga.com/media/catalog/product/cache/4a9972e1440204cef7cf19ceb7c4fc35/p/0/p047659_1_.jpg"
+            src="{{item.imgUrl}}"
             alt="product photo"
           />
         </div>
         <button class="btn oferta">Oferta Rato Wireless</button>
 
         <div class="title">
-            <a href="">Smartphone Apple iPhone 14 Plus 6.7" 128GB Roxo</a>
+            <a href="">{{ item.name }}</a>
         </div>
         
         <div class="description">
           <p>
-            iPhone 14 Plus, Pense em frande com um ecrã maior de 6.7 polegadas e
-            bateria para todo o dia. Tire Fotografias...
+            {{ item.description }}
           </p>
         </div>
 
@@ -46,7 +44,7 @@
             <span>Entraga prevista 06 de Outubro</span>
           </div>
         </div>
-        <p class="price">1189,00 €</p>
+        <p class="price">{{ item.price.toFixed(2) }} €</p>
         <button class="btn btn-favoritos">
           <i class="fa-regular fa-star"></i> Favoritos
         </button>

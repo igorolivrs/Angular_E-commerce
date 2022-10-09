@@ -39,6 +39,7 @@ body {
   --main_footer_bg: #ffffff;
   --footer_color: #000000;
   --footer_social-icon_color: #000;
+  --footer_newsletter_input_bg: #f6f6f6;
 }
 
 :root .dark-theme {
@@ -62,4 +63,5 @@ body {
   --main_footer_bg: #282828;
   --footer_color: #fff;
   --footer_social-icon_color: #dddbdb;
+  --footer_newsletter_input_bg: #3e3e3e;
 }

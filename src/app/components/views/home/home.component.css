@@ -3,7 +3,6 @@ main {
     flex-direction: column;
     box-sizing: border-box;
     margin: 0px 10%;
-    border: 2px solid black;
 }
 
 .separator_title {
